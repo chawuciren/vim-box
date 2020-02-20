@@ -309,6 +309,13 @@
     "设置标尺
     set colorcolumn=120
 
+    "根据不同扩展名切换缩进
+    autocmd FileType html :setlocal tabstop=2 softtabstop=2 shiftwidth=2
+    autocmd FileType css :setlocal tabstop=2 softtabstop=2 shiftwidth=2
+    autocmd FileType js :setlocal tabstop=2 softtabstop=2 shiftwidth=2
+    autocmd FileType vue :setlocal tabstop=2 softtabstop=2 shiftwidth=2
+    autocmd FileType scss :setlocal tabstop=2 softtabstop=2 shiftwidth=2
+
 "================================================================================
 "= 结束
 "================================================================================
